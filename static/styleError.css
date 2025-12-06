@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Calibri;
+    text-align: center;
+    justify-items: center;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.is404 {
+    font-size: 130px;
+}
+
+.what {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 420px) {
+    .what {
+    font-size: 30px;
+    }
+    .is404 {
+    font-size: 100px;
+    }
+
+}
+
+.a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(45, 45, 45);
+    color: rgb(200, 200, 200);
+    padding: 15px 20px;
+    border-radius: 20px;
+}

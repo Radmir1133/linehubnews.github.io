@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LineHub News - Error</title>
+    <link rel="stylesheet" href=" {{ url_for('static', filename='styleError.css') }} ">
+</head>
+<body>
+    <main>
+        <h1 class="is404">404</h1>
+        <h3 class="what">По ID {{ error }} ничего не найдено. Мы ничего не нашли :(</h3>
+        <a class="a" href="{{ url_for('index') }}">
+            <h2>На главную</h2>
+        </a>
+    </main>
+</body>
+</html>
